@@ -2,18 +2,14 @@
 
 import sys
 
-def usd_to_idr(usd):
+def usd_to_idr(amount):
     # kurs dollar
     EXCHANGE_RATE = 14591
 
-    # validasi apakah tipe inputan numeric
-    if input_usd.isnumeric() == False:
-        sys.exit('Input dollar harus tipe numeric')
-
-    return int(usd) * EXCHANGE_RATE
+    return amount * EXCHANGE_RATE
 
 # ambil input jumlah dollar
-input_usd = input('Masukan jumlah dollar: ')
+input_usd = int(input('Masukan jumlah dollar: '))
 
 result = usd_to_idr(input_usd)
 
