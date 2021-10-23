@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-print("Soal 2 - Agus Supriyatna")
+print("Soal 3 - Agus Supriyatna")
 print("Program perhitungan data nilai\n")
 
 MAX_INPUT = 3

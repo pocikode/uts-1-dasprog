@@ -2,6 +2,9 @@
 
 import sys
 
+print("Soal 2 - Agus Supriyatna")
+print("Program perhitungan berapa lama pegawai bekerja\n")
+
 def work_hours(clock_in, clock_out):
     # asumsi menggunakan format waktu 12 jam (am/pm)
     # berarti jika jam keluar lebih kecil dari jam masuk,
@@ -17,9 +20,6 @@ def validate_hour(val):
         sys.exit('Error: Jam hanya boleh berupa angka 1-12')
 
 
-# Execute the program
-print("Soal 2 - Agus Supriyatna")
-print("Program perhitungan berapa lama pegawai bekerja\n")
 
 clock_in  = int(input('Jam Masuk (1-12): '))
 validate_hour(clock_in)
